@@ -4,7 +4,6 @@ linkTitle = "Handbook"
 [menu.main]
 weight = 10
 pre = "<i class='fa-solid fa-computer'></i>"
-type = "docs"
 [[cascade]]
 type = "docs"
 +++
@@ -18,17 +17,30 @@ Altive全社員を対象としたドキュメント集です。
 
 社内での活用だけでなく、Altiveに興味を持ってくれた方や共通の課題を持つ第三者にも役に立つことを目指します。
 
-### コントリビューションガイド
+## コントリビューションガイド
 
 ハンドブックは、継続的にチーム全員で更新していきます。
 自分自身が困ったことや、ドキュメント不足に気づいた情報を、未来の仲間のために書き残してください。 
 
-### 情報の追加・更新や誤字脱字
+## 情報の追加・更新や誤字脱字
 
 修正の Pull Request を歓迎します。
 
-### 新しい記事の執筆
+## 新しい記事の執筆
 
 目次の中でリンクが存在しない記事は未執筆です。少しでも情報があれば助けになります。短い文章や、GitHub issueの抜粋でも構わないので、関連しそうな情報を教えて下さい。記事を書いて pull request をだすのも、もちろん歓迎です。
 
 また、現時点で目次に含まれていないトピックに関しても、新しい記事の提案を歓迎します。気軽にIssueを作成してください。
+
+## 参考リンク
+### Docsyテーマ
+使用しているGoogle製テーマ「Docsy」の使い方は以下を参照してください。  
+https://www.docsy.dev/docs/adding-content/
+
+### GitLabのハンドブック
+同じくHugoで作られたGitLabのハンドブック  
+https://handbook.gitlab.com/handbook/
+
+### Wantedly Engineering Handbook
+GitBookで作られたWantedlyのエンジニアリングハンドブック  
+https://docs.wantedly.dev/
