@@ -167,6 +167,11 @@ icon = "fab fa-slack"
 name = "Slack"
 url = "https://altive.slack.com"
 
+[[menu.main]]
+name = "Corporate site"
+url = "https://altive.co.jp"
+weight = 100
+
 # hugo module configuration
 [module]
 [module.hugoVersion]
