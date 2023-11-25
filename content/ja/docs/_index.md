@@ -1,6 +1,6 @@
 ---
-title: General
-linkTitle: General
+title: Handbook
+linkTitle: Handbook
 menu: {main: {weight: 20}}
 weight: 20
 ---
