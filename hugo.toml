@@ -1,8 +1,8 @@
-baseURL = "/"
-title = "The Altive Handbook"
-
+baseURL = "https://handbook.altive.co.jp"
 defaultContentLanguage = "ja"
+
 languageCode = "ja"
+title = "The Altive Handbook"
 # Hugo will explicitly treat the content as a CJK language
 hasCJKLanguage = true
 # Useful when translating.
@@ -12,6 +12,10 @@ enableRobotsTXT = true
 
 # Will give values to .Lastmod etc.
 enableGitInfo = true
+
+[languages]
+[languages.ja]
+contentDir = "content/ja"
 
 # Comment out to enable taxonomies
 # disableKinds = ["taxonomy", "taxonomyTerm"]
