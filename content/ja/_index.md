@@ -9,16 +9,7 @@ type = "docs"
 type = "docs"
 +++
 
-<!-- カバー -->
-{{< blocks/cover title=" " image_anchor="center" height="auto" >}}
-<p>
-  <a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/altive/handbook">
-    Repository <i class="fab fa-github ms-2 "></i>
-  </a>
-</p>
-{{< /blocks/cover >}}
-
-## Altive Handbook
+<a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/altive/handbook">Repository <i class="fab fa-github ms-2 "></i></a>
 
 Altive全社員を対象としたドキュメント集です。
 社員が知るべき情報のうち外部にも公開できる情報を体系的にまとめましょう。
