@@ -6,24 +6,29 @@ weight: 20
 ---
 
 {{% pageinfo %}}
-This is a placeholder page that shows you how to use this template site.
+編集中
 {{% /pageinfo %}}
 
-This section is where the user documentation for your project lives - all the
-information your users need to understand and successfully use your project.
+## Altive Handbook
 
-For large documentation sets we recommend adding content under the headings in
-this section, though if some or all of them don’t apply to your project feel
-free to remove them or add your own. You can see an example of a smaller Docsy
-documentation site in the [Docsy User Guide](https://docsy.dev/docs/), which
-lives in the [Docsy theme
-repo](https://github.com/google/docsy/tree/master/userguide) if you'd like to
-copy its docs section.
+Altive全社員を対象としたドキュメント集です。
+社員が知るべき情報のうち外部にも公開できる情報を体系的にまとめましょう。
 
-Other content such as marketing material, case studies, and community updates
-should live in the [About](/about/) and [Community](/community/) pages.
+このハンドブックを「信頼できる唯一の情報源（SSOT）」として、全員が同じデータに基づいて意思決定を行いましょう。
 
-Find out how to use the Docsy theme in the [Docsy User
-Guide](https://docsy.dev/docs/). You can learn more about how to organize your
-documentation (and how we organized this site) in [Organizing Your
-Content](https://docsy.dev/docs/best-practices/organizing-content/).
+社内での活用だけでなく、Altiveに興味を持ってくれた方や共通の課題を持つ第三者にも役に立つことを目指します。
+
+### コントリビューションガイド
+
+ハンドブックは、継続的にチーム全員で更新していきます。
+自分自身が困ったことや、ドキュメント不足に気づいた情報を、未来の仲間のために書き残してください。 
+
+### 情報の追加・更新や誤字脱字
+
+修正の Pull Request を歓迎します。
+
+### 新しい記事の執筆
+
+目次の中でリンクが存在しない記事は未執筆です。少しでも情報があれば助けになります。短い文章や、GitHub issueの抜粋でも構わないので、関連しそうな情報を教えて下さい。記事を書いて pull request をだすのも、もちろん歓迎です。
+
+また、現時点で目次に含まれていないトピックに関しても、新しい記事の提案を歓迎します。気軽にIssueを作成してください。
