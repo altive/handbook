@@ -4,7 +4,7 @@ title: The Altive Handbook
 
 {{< blocks/cover title="Welcome to the Altive Handbook" image_anchor="top" >}}
 <a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/">
-  General <i class="fas fa-arrow-alt-circle-right ms-2"></i>
+  全体ハンドブック <i class="fas fa-arrow-alt-circle-right ms-2"></i>
 </a>
 <a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/altive/handbook">
   Repository <i class="fab fa-github ms-2 "></i>
@@ -13,9 +13,6 @@ title: The Altive Handbook
 
 {{% blocks/lead color="primary" %}}
 Altive株式会社のハンドブックです。
-
-
-[リポジトリ](https://github.com/altive/handbook)
 {{% /blocks/lead %}}
 
 
