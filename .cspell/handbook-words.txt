@@ -1,5 +1,6 @@
 # Handbook Specific Words
 Docsy
 pageinfo
+Riverpod
 SSOT
 Wantedly
