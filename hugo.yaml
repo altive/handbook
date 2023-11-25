@@ -1,0 +1,152 @@
+baseURL: "https://handbook.altive.co.jp"
+defaultContentLanguage: "ja"
+
+languageCode: "ja"
+title: "The Altive Handbook"
+# Hugo will explicitly treat the content as a CJK language
+hasCJKLanguage: true
+# Useful when translating.
+enableMissingTranslationPlaceholders: true
+enableRobotsTXT: true
+# Will give values to Last-modified etc.
+enableGitInfo: true
+
+languages:
+  ja:
+    contentDir: "content/ja"
+    # disabled: false
+    # languageCode: "ja-JP"
+    # languageName: "日本語"
+    # title: "The Altive Handbook"
+    # params:
+    #   description: "Altiveのハンドブックです。"
+    # weight: 1
+
+# Configure how URLs look like per section.
+permalinks:
+  blog: "/:section/:year/:month/:day/:slug/"
+
+# Image processing configuration.
+imaging:
+  anchor: "Smart"
+  quality: 75
+  resampleFilter: "CatmullRom"
+
+disableKinds:
+- taxonomy
+- term
+
+services:
+  googleAnalytics:
+    # Comment out the next line to disable GA tracking. Also disables the feature described in [params.ui.feedback].
+    id: "UA-00000000-0"
+markup:
+  goldmark:
+    parser:
+      attribute:
+        block: true
+    renderer:
+      unsafe: true
+  highlight:
+    # See a complete list of available styles at https://xyproto.github.io/splash/general/all.html
+    style: "tango"
+    # Uncomment if you want your chosen highlight style used for code blocks without a specified language
+    # guessSyntax: "true"
+# Everything below this are Site Params
+# Comment out if you don't want the "print entire section" link enabled.
+outputs:
+  # home: [ "HTML" ]
+  # section: [ "HTML" ]
+params:
+  # Menu title if your navbar has a versions selector to access old versions of your site.
+  # This menu appears only if you have at least one [params.versions] set.
+  version_menu: "Releases"
+  # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
+  github_repo: "https://github.com/altive/handbook"
+  # Specify a value here if your content directory is not in your repo's root directory
+  # github_subdir: ""
+  # Uncomment this if your GitHub repo does not have "main" as the default branch,
+  # or specify a new value if you want to reference another branch in your GitHub links
+  github_branch: "main"
+  # Google Custom Search Engine ID. Remove or comment out to disable search.
+  # gcs_engine_id: "d72aa9b2712488cc3"
+  # Highlighting config
+  pygmentsCodeFences: true
+  pygmentsUseClasses: false
+  # Use the new Chroma Go highlighter in Hugo.
+  pygmentsUseClassic: false
+  # pygmentsOptions: "linenos=table"
+  # See https://help.farbox.com/pygments.html
+  pygmentsStyle: "tango"
+  copyright: "The Altive Handbook Authors"
+  privacy_policy: "https://altive.co.jp/privacy"
+  # Configure how URLs look like per section.
+  search:
+    algolia:
+      apiKey: ""
+      appID: ""
+      indexName: ""
+  # Enable Lunr.js offline search
+  offlineSearch: false
+  # Enable syntax highlighting and copy buttons on code blocks with Prism
+  prism_syntax_highlighting: false
+  # User interface configuration
+  ui:
+    #  Set to true to disable breadcrumb navigation.
+    breadcrumb_disable: false
+    # Set to true to disable the About link in the site footer
+    footer_about_disable: false
+    # Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top navbar
+    navbar_logo: true
+    # Set to true if you don't want the top navbar to be translucent when over a `block/cover`, like on the homepage.
+    navbar_translucent_over_cover_disable: false
+    # Enable to show the side bar menu in its compact state.
+    sidebar_menu_compact: false
+    # Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)
+    sidebar_search_disable: false
+    # Adds a H2 section titled "Feedback" to the bottom of each doc. The responses are sent to Google Analytics as events.
+    # This feature depends on [services.googleAnalytics] and will be disabled if "services.googleAnalytics.id" is not set.
+    # If you want this feature, but occasionally need to remove the "Feedback" section from a single page,
+    # add "hide_feedback: true" to the page's front matter.
+    feedback:
+      enable: false
+      # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
+      no: 'Sorry to hear that. Please <a href="https://github.com/altive/handbook/issues/new">tell us how we can improve</a>.'
+      yes: 'Glad to hear it! Please <a href="https://github.com/altive/handbook/issues/new">tell us how we can improve</a>.'
+    # Adds a reading time to the top of each doc.
+    # If you want this feature, but occasionally need to remove the Reading time from a single page,
+    # add "hide_readingtime: true" to the page's front matter
+    readingtime:
+      enable: true
+  links:
+    # End user relevant links. These will show up on left side of footer and in the community page if you have one.
+    user:
+      - desc: "Follow us on X(former Twitter) to get the latest news!"
+        icon: "fab fa-x"
+        name: "X(former Twitter)"
+        url: "https://x.com/altiveinc"
+    # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
+    developer:
+      - desc: "Development takes place here!"
+        icon: "fab fa-github"
+        name: "GitHub"
+        url: "https://github.com/altive/handbook"
+      - desc: "Chat with other project developers"
+        icon: "fab fa-slack"
+        name: "Slack"
+        url: "https://altive.slack.com"
+menu:
+  main:
+    - name: "企業サイト"
+      url: "https://altive.co.jp"
+      weight: 100
+
+module:
+  hugoVersion:
+    extended: true
+    min: "v0.119.0"
+  imports:
+    - disable: false
+      path: "github.com/google/docsy"
+    - disable: false
+      path: "github.com/google/docsy/dependencies"
