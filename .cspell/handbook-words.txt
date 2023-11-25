@@ -1,0 +1,5 @@
+# Handbook Specific Words
+Docsy
+pageinfo
+SSOT
+Wantedly

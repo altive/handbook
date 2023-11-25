@@ -1,9 +1,36 @@
 {
-    "cSpell.words": [
-        "Altive",
-        "altiveinc",
-        "ananke",
-        "pageinfo",
-        "SSOT"
+    // スペルチェックから除外する単語をまとめたテキストファイルを指定する
+    "cSpell.customDictionaries": {
+        "handbook-words": {
+            "name": "handbook-words",
+            "path": "${workspaceRoot}/.cspell/handbook-words.txt",
+            "description": "Handbook Specific Words",
+            "addWords": true,
+            "scope": "workspace"
+        },
+        "organization-words": {
+            "name": "organization-words",
+            "path": "${workspaceRoot}/.cspell/organization-words.txt",
+            "description": "Organization Specific Words",
+            "addWords": true,
+            "scope": "workspace"
+        }
+    },
+    // スペルチェックを行わないファイルパスを指定する
+    "cSpell.ignorePaths": [
+        "dart_defines",
+        "firebase_options*.dart",
+        "google-services.json",
+        "node_modules",
+        "package-lock.json",
+        "vscode-extension",
+        "*.gen.dart",
+        "*.lock",
+        "*.xcconfig",
+        "**/fvm",
+        "**/.pub-cache",
+        ".git/objects",
+        ".vscode",
+        ".vscode-insiders",
     ]
 }
