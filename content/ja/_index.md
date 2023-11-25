@@ -1,14 +1,17 @@
 +++
-title = "The Altive Handbook"
-linkTitle = "Handbook"
+title = "The Handbook"
+# メインメニューに表示させる。weightが小さいほど優先して表示される。
 [menu.main]
-weight = 10
-pre = "<i class='fa-solid fa-computer'></i>"
+weight = 1
+pre = "<i class='fa-solid fa-book'></i>"
+# 配下のページをすべて「ドキュメント」タイプにする。サイドバー等を表示するため。
 [[cascade]]
 type = "docs"
 +++
 
-<a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/altive/handbook">Repository <i class="fab fa-github ms-2 "></i></a>
+<a class="btn btn-lg btn-primary me-3 mb-4" href="https://altive.co.jp">altive.co.jp</a>
+<a class="btn btn-lg btn-primary me-3 mb-4" href="https://altive.dev">altive.dev</a>
+<a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/altive/handbook">The Altive Handbook repository <i class="fab fa-github ms-2 "></i></a>
 
 Altive全社員を対象としたドキュメント集です。
 社員が知るべき情報のうち外部にも公開できる情報を体系的にまとめましょう。
