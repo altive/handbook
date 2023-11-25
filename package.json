@@ -6,7 +6,7 @@
   "homepage": "https://example.docsy.dev",
   "author": "Docsy Authors",
   "license": "Apache-2.0",
-  "bugs": "https://github.com/google/docsy-example/issues",
+  "bugs": "https://github.com/altive/handbook/issues",
   "spelling": "cSpell:ignore HTMLTEST precheck postbuild -",
   "scripts": {
     "_build": "npm run _hugo-dev --",

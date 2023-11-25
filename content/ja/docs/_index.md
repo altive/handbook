@@ -1,6 +1,6 @@
 ---
-title: Everyone
-linkTitle: Everyone
+title: General
+linkTitle: General
 menu: {main: {weight: 20}}
 weight: 20
 ---
