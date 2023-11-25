@@ -1,38 +1,43 @@
----
-title: The Altive Handbook
----
++++
+title = "The Altive Handbook"
+linkTitle = "Handbook"
+[menu.main]
+weight = 10
+pre = "<i class='fa-solid fa-computer'></i>"
+type = "docs"
+[[cascade]]
+type = "docs"
++++
 
 <!-- カバー -->
-{{< blocks/cover title="The Altive Handbook" image_anchor="center" height="auto" >}}
-<div class="mx-auto">
-  <p class="lead mt-5">アプリをつくる、そだてるAltive株式会社の公開ハンドブック</p>
-  <a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/">
-    ハンドブック <i class="fas fa-arrow-alt-circle-right ms-2"></i>
-  </a>
+{{< blocks/cover title=" " image_anchor="center" height="auto" >}}
+<p>
   <a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/altive/handbook">
     Repository <i class="fab fa-github ms-2 "></i>
   </a>
-<div class="mx-auto">
+</p>
 {{< /blocks/cover >}}
 
-<!-- 第1セクション -->
-{{% blocks/section color="dark" type="row" %}}
-{{% blocks/feature icon="fa-lightbulb" title="全員で育てましょう" %}}
-みんなで更新するハンドブックです。
-{{% /blocks/feature %}}
+## Altive Handbook
 
-{{% blocks/feature icon="fab fa-github" title="Contributions welcome!" %}}
-**GitHub**で[Pull Request](https://github.com/altive/handbook/pulls)を提出できます。  
-編集は意見はいつでも歓迎です！
-{{% /blocks/feature %}}
+Altive全社員を対象としたドキュメント集です。
+社員が知るべき情報のうち外部にも公開できる情報を体系的にまとめましょう。
 
-{{% blocks/feature icon="fab fa-x" title="Follow us on X!" %}}
-[@altiveinc](https://x.com/altiveinc) フォローお願いします🚀
-{{% /blocks/feature %}}
+このハンドブックを「信頼できる唯一の情報源（SSOT）」として、全員が同じデータに基づいて意思決定を行いましょう。
 
-{{% /blocks/section %}}
+社内での活用だけでなく、Altiveに興味を持ってくれた方や共通の課題を持つ第三者にも役に立つことを目指します。
 
-<!-- 第2セクション -->
-{{% blocks/section color="primary" %}}
-**アプリを配信したらここに並べましょう！**
-{{% /blocks/section %}}
+### コントリビューションガイド
+
+ハンドブックは、継続的にチーム全員で更新していきます。
+自分自身が困ったことや、ドキュメント不足に気づいた情報を、未来の仲間のために書き残してください。 
+
+### 情報の追加・更新や誤字脱字
+
+修正の Pull Request を歓迎します。
+
+### 新しい記事の執筆
+
+目次の中でリンクが存在しない記事は未執筆です。少しでも情報があれば助けになります。短い文章や、GitHub issueの抜粋でも構わないので、関連しそうな情報を教えて下さい。記事を書いて pull request をだすのも、もちろん歓迎です。
+
+また、現時点で目次に含まれていないトピックに関しても、新しい記事の提案を歓迎します。気軽にIssueを作成してください。

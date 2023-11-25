@@ -1,9 +1,11 @@
----
-title: Engineering
-linkTitle: Engineering
-menu: {main: {weight: 30}}
-weight: 30
----
++++
+title = "Engineering docs"
+linkTitle = "Engineering"
+type = "docs"
+[menu.main]
+weight = 30
+pre = "<i class='fa-solid fa-computer'></i>"
++++
 
 {{% pageinfo %}}
 編集中
