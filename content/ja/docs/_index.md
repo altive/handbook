@@ -1,6 +1,6 @@
 ---
-title: Documentation
-linkTitle: Docs
+title: Everyone
+linkTitle: Everyone
 menu: {main: {weight: 20}}
 weight: 20
 ---
