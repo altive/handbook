@@ -1,5 +1,6 @@
 # Handbook Specific Words
 Catmull
+changefreq
 Docsy
 goldmark
 linenos
