@@ -33,10 +33,6 @@ title: The Altive Handbook
 {{% /blocks/section %}}
 
 <!-- 第2セクション -->
-{{% blocks/section %}}
+{{% blocks/section color="primary" %}}
 **アプリを配信したらここに並べましょう！**
-{{% /blocks/section %}}
-
-<!-- 第3セクション -->
-{{% blocks/section color="dark" %}}
 {{% /blocks/section %}}
