@@ -1,6 +1,12 @@
 # Handbook Specific Words
+Catmull
 Docsy
+goldmark
+linenos
 pageinfo
+pygments
+readingtime
 Riverpod
 SSOT
+subdir
 Wantedly
