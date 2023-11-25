@@ -5,6 +5,8 @@ title = "The Altive Handbook"
 contentDir = "content/ja"
 defaultContentLanguage = "ja"
 defaultContentLanguageInSubdir = false
+# Hugo will explicitly treat the content as a CJK language
+hasCJKLanguage = true
 # Useful when translating.
 enableMissingTranslationPlaceholders = true
 
