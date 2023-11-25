@@ -44,7 +44,7 @@ Altive株式会社のハンドブックです。
 {{% blocks/section type="row" %}}
 
 {{% blocks/feature icon="fab fa-app-store-ios" title="Download **from AppStore**" %}}
-Get the Goldydocs app!
+Get the Altive Handbook app!
 {{% /blocks/feature %}}
 
 {{% blocks/feature icon="fab fa-github" title="Contributions welcome!"

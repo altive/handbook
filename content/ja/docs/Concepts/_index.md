@@ -9,6 +9,16 @@ description: >
 This is a placeholder page that shows you how to use this template site.
 {{% /pageinfo %}}
 
-For many projects, users may not need much information beyond the information in the [Overview](/general/overview/), so this section is **optional**. However if there are areas where your users will need a more detailed understanding of a given term or feature in order to do anything useful with your project (or to not make mistakes when using it) put that information in this section. For example, you may want to add some conceptual pages if you have a large project with many components and a complex architecture.
+多くのプロジェクトでは、ユーザーは[Overview](/general/overview/)にある情報以上の情報をあまり必要としないでしょうから、このセクションは**オプション**です。
 
-Remember to focus on what the user needs to know, not just what you think is interesting about your project! If they don’t need to understand your original design decisions to use or contribute to the project, don’t put them in, or include your design docs in your repo and link to them. Similarly, most users will probably need to know more about how features work when in use rather than how they are implemented. Consider a separate architecture page for more detailed implementation and system design information that potential project contributors can consult.
+しかし、あなたのプロジェクトで何か役に立つことをするために（あるいは、それを使うときにミスをしないために）、ユーザーが特定の用語や機能についてより詳細な理解を必要とする領域がある場合、その情報をこのセクションに置いてください。
+
+例えば、多くのコンポーネントや複雑なアーキテクチャを持つ大規模なプロジェクトの場合、コンセプトページを追加したくなるかもしれません。
+
+プロジェクトについてあなたが面白いと思うことだけではなく、ユーザーが知る必要のあることに焦点を当てることを忘れないでください！
+
+もしユーザーが、そのプロジェクトを使ったり貢献したりするために、あなたのオリジナルの設計決定を理解する必要がないのであれば、そのようなページは作らないようにしましょう。
+
+同様に、ほとんどのユーザーは、機能がどのように実装されているかよりも、使用時にどのように機能するかについて知る必要があるでしょう。
+
+潜在的なプロジェクトの貢献者が参照できるような、より詳細な実装やシステム設計の情報のための、別のアーキテクチャページを検討してください。
