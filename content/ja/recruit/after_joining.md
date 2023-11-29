@@ -17,7 +17,7 @@ GitHubアカウントがない場合や、個人アカウントとの使い分�
 - [ ] [マネーフォワードクラウド勤怠](https://attendance.moneyforward.com/my_page)に招待する
 - [ ] マネーフォワードクラウド給与
 - [ ] マネーフォワードクラウドマイナンバー
-- [ ] [Apple Store Connect](https://appstoreconnect.apple.com/access/users)
+- [ ] [App Store Connect](https://appstoreconnect.apple.com/access/users)
 - [ ] [Google Play Console](https://play.google.com/console/u/0/developers/8507323661724667240/users-and-permissions)
 
 ### エンジニアのみ
