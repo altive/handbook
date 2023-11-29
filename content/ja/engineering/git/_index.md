@@ -1,7 +1,7 @@
-+++
-title = "Git"
-description = "Git"
-+++
+---
+title: Git
+description: Gitに関する規約やTips。
+---
 
 ## Commit message
 

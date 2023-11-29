@@ -1,5 +1,5 @@
 ---
-title: "App lib directories"
+title: App lib directories
 description: >
   Flutterアプリのlibディレクトリの構成についてのAltive標準構成を提示する。
   アプリごとに最適解は異なるが、推奨を示す。
@@ -57,8 +57,8 @@ e.g.
 ## Pages
 e.g.
 - `main_page.dart`
-- `home_page/home_page.dart`
-- `home_page/news_view.dart`
+- `home/home_page.dart`
+- `home/news_view.dart`
 
 ページ単位のWidgetと、ページ専用コンポーネントWidgetsを格納する。
 

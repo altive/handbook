@@ -1,8 +1,7 @@
-+++
-title = "Navigator"
-description = "Navigator is a widget that manages a set of child widgets with a stack discipline. It allows us to navigate between screens by pushing and popping screens onto and off the stack."
-weight = 2
-+++
+---
+title: Navigator
+description: FlutterアプリにおけるNavigatorの使い方について
+---
 
 ## Navigator 1.0 と Navigator 2.0 (e.g. go_router)の使い分け
 
