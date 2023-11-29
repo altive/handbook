@@ -1,12 +1,75 @@
 ---
 title: オンボーディング
-description: Show your user how to work through some end to end examples.
-weight: 8
+description: 新入社員が、入社直後にやること。
 ---
+入社前にやることについては、[内定承諾から入社までにすること](/recruit/before_joining)を確認してください。
 
-{{% pageinfo %}}
-This is a placeholder page that shows you how to use this template site.
-{{% /pageinfo %}}
+労務担当者が行うことについては、[入社後に労務担当者がやること](/recruit/after_joining)を確認してください。
 
-Tutorials are **complete worked examples** made up of **multiple tasks** that guide the user through a relatively simple but realistic scenario: building an application that uses some of your project’s features, for example. If you have already created some Examples for your project you can base Tutorials on them. This section is **optional**. However, remember that although you may not need this section at first, having tutorials can be useful to help your users engage with your example code, especially if there are aspects that need more explanation than you can easily provide in code comments.
+## 社用メールアドレスの初期設定
+社員には `@altive.co.jp` のメールアドレスが割り当てられます。
 
+入社前にご提示いただいたメールアドレス宛に初期設定用のリンクが送信されますので、そちらから初期設定を行ってください。
+
+- [ ] プライベートメールアドレス宛に届いた初期設定用リンクから、初期設定を行う
+
+## 各種サービスへの参加
+受け取った招待メールから各サービスに参加し、サインアップや初期設定を行う。
+
+### GitHub
+個人ですでに使用しているGitHubアカウントがあれば、 `@altive.co.jp` のメールアドレスを追加してください。
+
+以下の場合は、 `@altive.co.jp` のメールアドレスを使って新規登録してください。
+- まだGitHubのアカウントを持っていない
+- 個人のものとは使い分けたい（非推奨）
+
+以下、すでに使用するGitHubアカウントを伝えている場合は不要です。
+
+- [ ] 使用するGitHubアカウントを決める
+- [ ] GitHubアカウントを伝える
+
+### `@altive.co.jp` を使うサービス
+これらのサービスには `@altive.co.jp` のメールアドレスを使ってサインアップしてください。
+
+- [ ] Slackワークスペース(altive.slack.com)
+- [ ] [Notion](https://www.notion.so/altive)
+- [ ] [マネーフォワードクラウド勤怠](https://attendance.moneyforward.com/my_page)
+- [ ] マネーフォワードクラウド給与
+- [ ] マネーフォワードクラウドマイナンバー
+- [ ] [App Store Connect](https://appstoreconnect.apple.com)
+- [ ] [Google Play Console](https://play.google.com/console/u/0/developers/8507323661724667240)
+
+### エンジニアのみ参加が必要なサービス
+- [ ] [Timing](https://web.timingapp.com)
+- [ ] 1Password
+
+### その他
+- [ ] [Wantedly社内ポータル](https://www.wantedly.com/companies/altive)にアクセスし、ストーリー記事を読み、既存社員のことを知りましょう。
+
+## 入社に必要な以下の書類を提出する
+
+### 雇用保険被保険者証番号
+紛失した場合は、内定者本人（被保険者）が「雇用保険被保険者証再交付申請書」を申請し、被保険者証の再交付を受ける必要があります。
+
+### 基礎年金番号
+基礎年金番号を伝えてください。
+
+### 給与振込先の口座情報とマイナンバーの入力
+- [ ] マネーフォワードクラウド給与の従業員情報に振込先情報を入力する
+- [ ] マネーフォワードクラウドマイナンバーでマイナンバーを提出する
+
+### 扶養控除等申告書の提出
+扶養者の有無にかかわらず提出が必要です。
+扶養控除申告書を提出できるのは1事業所のみなので、2社以上から雇用されている人は本業の会社で提出する。
+
+担当者から申告書を受け取ったら、記入して提出してください。
+
+### 源泉徴収票
+前の会社を退職した年と入社する年が同じ場合は、提出する必要があります。
+
+源泉徴収票は前の会社を退職する際に従業員へ交付されます。
+
+### 健康保険被扶養者異動届・国民年金第3号被保険者届の提出
+扶養者がいる場合のみ提出が必要です。
+
+担当者から申告書を受け取ったら、記入して提出してください。
