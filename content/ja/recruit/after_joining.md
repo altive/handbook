@@ -2,12 +2,17 @@
 title: 入社後に労務担当者がやること
 description: 労務担当者が、新入社員入社後にやること。
 ---
+## GitHub
+すでに新入社員のGitHubアカウントがあれば、そのアカウントを招待する。
+GitHubアカウントがない場合や、個人アカウントとの使い分けを希望された場合は、`@altive.co.jp` でアカウントを作成してもらい、招待する。
+
+- [ ] [GitHub Organization](https://github.com/orgs/altive/people)
+
 ## 各種サービスへの招待
 各種サービスに `名字@altive.co.jp` を招待する。
 
 - [ ] [Slack workspace](https://altive.slack.com/admin)
 - [ ] [Notion members](https://www.notion.so/altive/)
-- [ ] [GitHub Organization](https://github.com/orgs/altive/people)
 - [ ] [マネーフォワードクラウド管理コンソール](https://biz-admin.moneyforward.com/app/users)から、新入社員を追加する
 - [ ] [マネーフォワードクラウド勤怠](https://attendance.moneyforward.com/my_page)に招待する
 - [ ] マネーフォワードクラウド給与

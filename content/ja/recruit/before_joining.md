@@ -35,9 +35,9 @@ https://edenred.jp/ticketrestaurant/
 
 ## 社用メールアドレスの発行
 - 担当者
-  - [ ] Google Workspace Adminにて、新入新入社員用アカウントを作成する
+  - [ ] Google Workspace Adminにて、新入社員用アカウントを作成する
 
-社員に `名字@altive.co.jp` のメールアドレスが割り当てます。
+社員に `名字@altive.co.jp` のメールアドレスを割り当てます。
 
 名字が重複する場合は、名字の前に名前のイニシャルを付けます。
 例： `muramatsu@altive.co.jp`, `a.muramatsu@altive.co.jp`
