@@ -7,6 +7,7 @@ linenos
 pageinfo
 pubspec
 pygments
+Raycast
 readingtime
 Riverpod
 SSOT

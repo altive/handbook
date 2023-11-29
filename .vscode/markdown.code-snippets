@@ -6,7 +6,7 @@
             "---"
             "title: $1"
             "description: $2"
-            "---"
+            "---\n"
         ],
         "description": "Front-matter for Markdown files"
     }
