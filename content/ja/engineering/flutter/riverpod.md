@@ -1,6 +1,6 @@
 ---
-title: "Riverpod"
-description: "Riverpod is a state management library for Flutter. It is a fork of the Provider package."
+title: Riverpod
+description: Riverpod is a state management library for Flutter. It is a fork of the Provider package.
 weight: 2
 ---
 
