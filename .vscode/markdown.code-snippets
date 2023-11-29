@@ -1,0 +1,13 @@
+{
+    "front-matter": {
+        "scope": "markdown",
+        "prefix": "frontmatter",
+        "body": [
+            "---"
+            "title: $1"
+            "description: $2"
+            "---"
+        ],
+        "description": "Front-matter for Markdown files"
+    }
+}

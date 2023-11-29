@@ -32,5 +32,14 @@
         ".git/objects",
         ".vscode",
         ".vscode-insiders",
-    ]
+    ],
+    // Markdownでスニペットを有効にする
+    "[markdown]": {
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        },
+        "editor.snippetSuggestions": "top",
+    },
 }
