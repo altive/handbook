@@ -1,12 +1,7 @@
-+++
-title = "サンプルページ"
-date = "2017-01-05"
-description = '''
-An example page.
-'''
-categories = ["Examples"]
-tags = ["test", "sample", "docs"]
-+++
+---
+title: サンプルページ
+description: Markdownのサンプルページです。書式の設定方法や見た目を確認できます。
+---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://gohugo.io) should be blue with no underlines (unless hovered over).
 

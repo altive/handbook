@@ -1,8 +1,8 @@
-+++
-title = "Riverpod"
-description = "Riverpod is a state management library for Flutter. It is a fork of the Provider package."
-weight = 2
-+++
+---
+title: Riverpod
+description: Riverpod is a state management library for Flutter. It is a fork of the Provider package.
+weight: 2
+---
 
 ## 命名規則
 ### Notifierの命名は末尾に State をつける

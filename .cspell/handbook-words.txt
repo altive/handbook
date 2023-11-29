@@ -5,6 +5,7 @@ Docsy
 goldmark
 linenos
 pageinfo
+pubspec
 pygments
 readingtime
 Riverpod

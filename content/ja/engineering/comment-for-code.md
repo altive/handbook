@@ -1,7 +1,7 @@
-+++
-title = "Comment for Code"
-description = "Comment for Code"
-+++
+---
+title: Comment for Code
+description: Comment for Code
+---
 
 Dartの場合、 `//` は通常のコメントで、 `///` がドキュメントコメントになる。
 

@@ -1,8 +1,8 @@
-+++
-title = "REST API Client"
-description = "REST API Client"
-weight = 10
-+++
+---
+title: REST API Client
+description: REST API Client
+weight: 10
+---
 
 ## 前提
 `GET`, `PUT`, `DELETE`, `HEAD`, `OPTIONS`, `TRACE` は冪等であるべき。  

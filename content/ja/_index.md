@@ -1,13 +1,12 @@
-+++
-title = "The Handbook"
-# メインメニューに表示させる。weightが小さいほど優先して表示される。
-[menu.main]
-weight = 1
-pre = "<i class='fa-solid fa-book'></i>"
-# 配下のページをすべて「ドキュメント」タイプにする。サイドバー等を表示するため。
-[[cascade]]
-type = "docs"
-+++
+---
+title: "The Handbook"
+menu:
+  main:
+    weight: 1
+    pre: "<i class='fa-solid fa-book'></i>"
+cascade:
+  type: "docs"
+---
 
 <a class="btn btn-lg btn-primary me-3 mb-4" href="https://altive.co.jp">altive.co.jp</a>
 <a class="btn btn-lg btn-primary me-3 mb-4" href="https://altive.dev">altive.dev</a>
@@ -41,9 +40,9 @@ Altive全社員を対象としたドキュメント集です。
 https://www.docsy.dev/docs/adding-content/
 
 ### GitLabのハンドブック
-同じくHugoで作られたGitLabのハンドブック  
+Altive Handbookと同じく、HugoとDocsyで作られたGitLabのハンドブック。  
 https://handbook.gitlab.com/handbook/
 
 ### Wantedly Engineering Handbook
-GitBookで作られたWantedlyのエンジニアリングハンドブック  
+GitBookで作られたWantedlyのエンジニアリングハンドブック。  
 https://docs.wantedly.dev/
