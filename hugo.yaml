@@ -107,6 +107,8 @@ params:
     navbar_translucent_over_cover_disable: false
     # Enable to show the side bar menu in its compact state.
     sidebar_menu_compact: false
+    # メニューの親セクションの横にある矢印アイコンを切り替えることで、メニューセクションを展開したり折りたたんだりすることができる。
+    sidebar_menu_foldable: true
     # Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)
     sidebar_search_disable: false
     # Adds a H2 section titled "Feedback" to the bottom of each doc. The responses are sent to Google Analytics as events.
@@ -149,7 +151,7 @@ menu:
 module:
   hugoVersion:
     extended: true
-    min: "v0.119.0"
+    min: 0.119.0
   imports:
     - disable: false
       path: "github.com/google/docsy"
