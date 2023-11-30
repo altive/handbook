@@ -2,6 +2,7 @@
 Catmull
 changefreq
 Docsy
+favomatch
 goldmark
 linenos
 pageinfo
@@ -13,3 +14,4 @@ Riverpod
 SSOT
 subdir
 Wantedly
+yourrank
