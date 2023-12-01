@@ -1,9 +1,10 @@
 ---
-title: サンプルページ
-description: Markdownのサンプルページです。書式の設定方法や見た目を確認できます。
+title: Markdownサンプルページ
+description: ハンドブックを書く上で必要になる「Markdown」のサンプルページです。書式の設定方法や見た目を確認できます。
 ---
-
-Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://gohugo.io) should be blue with no underlines (unless hovered over).
+<!-- cSpell:disable -->
+テキストを **太字**, _斜体_, or ~~打ち消し~~ にできます。
+ [リンク](https://altive.co.jp) には色がつきます。
 
 There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.
 
@@ -15,7 +16,11 @@ There should be whitespace between paragraphs. Vape migas chillwave sriracha pou
 >
 > There should be no margin below this final sentence.
 
-## First Header 2
+## 大見出し（H2）
+
+titleで「H1」が使われるため、本文の見出しは「H2」から使ってください。
+
+`## ` を行頭につけると「H2」になります。
 
 This is a normal paragraph following a header. Knausgaard kale chips snackwave microdosing cronut copper mug swag synth bitters letterpress glossier **craft beer**. Mumblecore bushwick authentic gochujang vegan chambray meditation jean shorts irony. Viral farm-to-table kale chips, pork belly palo santo distillery activated charcoal aesthetic jianbing air plant woke lomo VHS organic. Tattooed locavore succulents heirloom, small batch sriracha echo park DIY af. Shaman you probably haven't heard of them copper mug, crucifix green juice vape *single-origin coffee* brunch actually. Mustache etsy vexillologist raclette authentic fam. Tousled beard humblebrag asymmetrical. I love turkey, I love my job, I love my friends, I love Chardonnay!
 
@@ -30,7 +35,7 @@ Scenester tumeric pickled, authentic crucifix post-ironic fam freegan VHS pork b
 
 > This is a blockquote following a header. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.
 
-### Header 3
+### 小見出し（H3）
 
 ```
 This is a code block following a header.
