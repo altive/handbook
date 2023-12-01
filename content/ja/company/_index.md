@@ -1,6 +1,6 @@
 ---
 title: Altiveの制度
-description: Altive株式会社で導入している制度やについて。
+description: Altive株式会社で導入している制度について。
 weight: 10
 ---
 
