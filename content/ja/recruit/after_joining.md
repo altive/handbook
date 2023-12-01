@@ -15,7 +15,8 @@ GitHubアカウントがない場合や、個人アカウントとの使い分�
 - [ ] [Notion members](https://www.notion.so/altive/)
 - [ ] [マネーフォワードクラウド管理コンソール](https://biz-admin.moneyforward.com/app/users)から、新入社員を追加する
 - [ ] [マネーフォワードクラウド勤怠](https://attendance.moneyforward.com/my_page)に招待する
-- [ ] マネーフォワードクラウド給与
+- [ ] [マネーフォワードクラウド給与](https://payroll.moneyforward.com/)
+- [ ] [マネーフォワードクラウド経費](https://expense.moneyforward.com/)
 - [ ] マネーフォワードクラウドマイナンバー
 - [ ] [App Store Connect](https://appstoreconnect.apple.com/access/users)
 - [ ] [Google Play Console](https://play.google.com/console/u/0/developers/8507323661724667240/users-and-permissions)
