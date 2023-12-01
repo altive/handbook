@@ -1,6 +1,7 @@
 ---
 title: オンボーディング
 description: 新入社員が、入社直後にやること。
+weight: 40
 ---
 入社前にやることについては、[内定承諾から入社までにすること](/recruit/before_joining)を確認してください。
 
@@ -36,7 +37,8 @@ description: 新入社員が、入社直後にやること。
 - [ ] Slackワークスペース(altive.slack.com)
 - [ ] [Notion](https://www.notion.so/altive)
 - [ ] [マネーフォワードクラウド勤怠](https://attendance.moneyforward.com/my_page)
-- [ ] マネーフォワードクラウド給与
+- [ ] [マネーフォワードクラウド給与](https://payroll.moneyforward.com/)
+- [ ] [マネーフォワードクラウド経費](https://expense.moneyforward.com/)
 - [ ] マネーフォワードクラウドマイナンバー
 - [ ] [App Store Connect](https://appstoreconnect.apple.com)
 - [ ] [Google Play Console](https://play.google.com/console/u/0/developers/8507323661724667240)

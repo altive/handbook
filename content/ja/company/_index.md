@@ -1,6 +1,7 @@
 ---
-title: Altiveについて
-description: Altive株式会社について。
+title: Altiveの制度
+description: Altive株式会社で導入している制度やについて。
+weight: 10
 ---
 
 ## Altive株式会社とは

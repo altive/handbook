@@ -1,5 +1,5 @@
 ---
-title: Slack
+title: Slackを使う
 description: Altiveでは、Slackを社内外のコミュニケーションツールとして使用しています。
 ---
 
