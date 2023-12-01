@@ -14,4 +14,6 @@ Riverpod
 SSOT
 subdir
 Wantedly
+xcodes
+xcodesorg
 yourrank

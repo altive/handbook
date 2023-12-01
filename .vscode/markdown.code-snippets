@@ -9,5 +9,15 @@
             "---\n"
         ],
         "description": "Front-matter for Markdown files"
+    },
+    "need-postscript": {
+        "scope": "markdown",
+        "prefix": "postscript",
+        "body": [
+            "{{% pageinfo %}}"
+            "この項目には情報が不足しています。追記してください。"
+            "{{% /pageinfo %}}\n"
+        ],
+        "description": "Front-matter for Markdown files"
     }
 }
