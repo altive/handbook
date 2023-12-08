@@ -1,5 +1,5 @@
 ---
-title: "The Handbook"
+title: "The Altive Handbook"
 menu:
   main:
     weight: 1
