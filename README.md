@@ -1,14 +1,21 @@
-# Altive Handbook
+# The Altive Handbook
 
 ## Development｜開発方法
 
-### Install｜インストール
+### Setup｜初回セットアップ
 
 ```shell
 # Install Hugo by Homebrew
 brew install hugo
 # Check the Hugo version
 hugo version
+```
+
+```shell
+# Install npm by Homebrew
+brew install npm
+# Install npm packages
+npm install
 ```
 
 ### Run the development server｜開発用サーバーの起動
@@ -37,8 +44,12 @@ hugo server --navigateToChanged
 
 ## How to add a new page｜新しいページの追加方法
 
+Create a markdown file in the directory where you want to place it.
+
+Or you can add it with the following command.
+
 ```shell
-hugo new content posts/page-name.md
+hugo new content directory/page-name.md
 ```
 
 ## Build｜ビルド方法
@@ -51,5 +62,7 @@ hugo
 
 ## Deploy｜デプロイ方法
 
-```shell
-``````
+When a GitHub pull request is merged (pushed to the main branch),
+GitHub Actions automatically deploys it.
+
+`.github/workflows/deploy.yml`
