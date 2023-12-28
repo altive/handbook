@@ -65,7 +65,7 @@ x=x&z=z // nullの項目が無視されている
 
 `@Queries`では下記ドキュメントコメントのように`null`が許容されておらず、
 もし`nullable`なフィールドが存在するモデルクラスに`@Queries`を付与してしまうと、
-nullの項目のkeyのみがクエリパラメータに追加される形になってしまう。
+値がnullの項目はkeyのみがクエリパラメータとして追加されてしまう。
 
 ```
 Query parameter keys and values appended to the URL.
