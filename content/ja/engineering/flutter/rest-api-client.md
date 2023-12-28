@@ -46,13 +46,40 @@ weight: 10
 `@FormUrlEncoded()`を付与しているエンドポイントのRequestクラスにnullableのフィールドが含まれているとBodyが下記のようになってしまうためである。
 
 ```
-x=x&y&z=z
+x=x&y&z=z // nullの項目が無視されていない
 ```
 
-以下のように正しい形で送信するために、nullの項目を無視してBodyの形に変換するため、`@Body(nullToAbsent: true)`を必ず使用する必要がある。
+以下のように正しい形で送信するために、`@Body(nullToAbsent: true)`を必ず使用する必要がある。
 
 ```
-x=x&z=z
+x=x&z=z // nullの項目が無視されている
 ```
 
 将来的にRequestクラスにnullableのフィールドが追加された際に付与するのを忘れることがないように、`@FormUrlEncoded()`を利用する場合はRequestクラスにnullableのフィールドがあるかどうかに関わらず、`@Body(nullToAbsent: true)`を必ず使用する。
+
+### `@Queries` と `@Query`の使い分け
+クエリパラメータの中に未指定（`null`）でも良いパラメータが存在するかどうかによって使い分ける。
+
+- `@Queries`: クエリパラメータ全てが必須である場合
+- `@Query`: クエリパラメータの中に必須でないパラメータが存在する場合
+
+`@Queries`では下記ドキュメントコメントのように`null`が許容されておらず、
+もし`nullable`なフィールドが存在するモデルクラスに`@Queries`を付与してしまうと、
+値がnullの項目はkeyのみがクエリパラメータとして追加されてしまう。
+
+```
+Query parameter keys and values appended to the URL.
+
+A `null` value for the map, as a key, or as a value is not allowed.
+```
+
+```
+x=x&y&z=z // nullの項目が無視されていない
+```
+
+
+以下のように正しい形で送信するために、各パラメータごとに`@Query`を使用する必要がある。
+
+```
+x=x&z=z // nullの項目が無視されている
+```
