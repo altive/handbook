@@ -1,0 +1,6 @@
+{
+    "name": "The Altive Handbook",
+    "build": {
+        "dockerfile": "Dockerfile"
+    }
+}
