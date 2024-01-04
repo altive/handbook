@@ -19,5 +19,35 @@
             "{{% /pageinfo %}}\n"
         ],
         "description": "追記が必要な項目にはPageInfoを残しておく。"
+    },
+    "alert-note": {
+        "scope": "markdown",
+        "prefix": "note",
+        "body": [
+            "{{< alert title="Note" >}}"
+            "$1"
+            "{{< /alert >}}\n"
+        ],
+        "description": "Alert with a Note"
+    },
+    "alert-success": {
+        "scope": "markdown",
+        "prefix": "success",
+        "body": [
+            "{{< alert color="success" title="Success" >}}"
+            "$1"
+            "{{< /alert >}}\n"
+        ],
+        "description": "Alert with a Success"
+    },
+    "alert-warning": {
+        "scope": "markdown",
+        "prefix": "warning",
+        "body": [
+            "{{< alert color="warning" title="Warning" >}}"
+            "$1"
+            "{{< /alert >}}\n"
+        ],
+        "description": "Alert with a Waring"
     }
 }
