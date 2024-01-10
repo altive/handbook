@@ -62,6 +62,14 @@ description: Altiveでは、Slackを社内外のコミュニケーションツ�
 
 備品の購入申請はSlackワークフローを使って行い、購入はAmazon Businessを使用しています。
 
+### #広報-public-relations
+
+参加者：Altive社員
+
+社内外の広報に関する運用チャンネルです。
+
+自社WebサイトやSNS、PRTimesなどでの発信運用などを取り扱いましょう！
+
 ### #gamer 
 
 参加者： Altive社員、パートナー、ゲスト
