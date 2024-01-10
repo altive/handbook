@@ -24,7 +24,7 @@
         "scope": "markdown",
         "prefix": "note",
         "body": [
-            "{{< alert title="Note" >}}"
+            "{{< alert title=\"Note\" >}}"
             "$1"
             "{{< /alert >}}\n"
         ],
@@ -34,7 +34,7 @@
         "scope": "markdown",
         "prefix": "success",
         "body": [
-            "{{< alert color="success" title="Success" >}}"
+            "{{< alert color=\"success\" title=\"Success\" >}}"
             "$1"
             "{{< /alert >}}\n"
         ],
@@ -44,7 +44,7 @@
         "scope": "markdown",
         "prefix": "warning",
         "body": [
-            "{{< alert color="warning" title="Warning" >}}"
+            "{{< alert color=\"warning\" title=\"Warning\" >}}"
             "$1"
             "{{< /alert >}}\n"
         ],
