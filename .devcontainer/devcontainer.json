@@ -1,6 +1,11 @@
 {
     "name": "The Altive Handbook",
-    "build": {
-        "dockerfile": "Dockerfile"
-    }
+    "image": "mcr.microsoft.com/devcontainers/go",
+    "features": {
+        "ghcr.io/devcontainers/features/hugo": {
+            "extended": true
+        },
+        "ghcr.io/devcontainers/features/node:1": {}
+    },
+    "postCreateCommand": "npm install"
 }
