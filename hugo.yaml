@@ -88,8 +88,8 @@ params:
   # Configure how URLs look like per section.
   search:
     algolia:
-      apiKey: ""
-      appID: ""
+      apiKey: "8a69835659dd299f36b025c327834963"
+      appID: "SJAAU903YH" # cSpell: disable-line
       indexName: ""
   # Enable Lunr.js offline search
   offlineSearch: false
