@@ -7,6 +7,13 @@ description: エンジニアを対象としたMacのセットアップについ�
 Altiveでは、バックエンド・フロントエンドの垣根なく、エンジニアが必要に応じてフルスタックで開発を行います。
 そのため、FlutterとiOSやAndroidの開発環境は必須です。
 
+### Flutterセットアップのゴール
+[flutter_app_template](https://github.com/altive/flutter_app_template)を以下のデバイスで起動確認できることをゴールとします。
+- iOS(Simulator/実機)
+- Android(Emulator/実機)
+- Web
+- macOS
+
 ### Flutter SDKのインストール
 プロジェクトに依らないグローバルなFlutter SDKをインストールしましょう。
 
@@ -14,10 +21,25 @@ Flutter公式ドキュメントに沿って Apple Silicon 用のインストー�
 
 https://docs.flutter.dev/get-started/install/macos
 
-### Flutter Version Managementのインストール
+### Flutter Version Management(FVM)のインストール
 Altiveでは、Flutter SDKのバージョン管理に[fvm](https://fvm.app/)を使用しています。
 
 各プロジェクトのリポジトリをCloneしたら、 `fvm install` コマンドで、プロジェクトで使っているFlutter SDKのバージョンをインストールしてください。
+
+{{< alert title="Note" >}}
+FVMについては、[FVMでFlutter SDKのバージョンをプロジェクト毎に管理する](https://zenn.dev/altiveinc/articles/flutter-version-management)もご参照ください。
+{{< /alert >}}
+
+
+### Melosのインストール
+複数のパッケージを持つDartプロジェクトを一元管理するために[Melos](https://melos.invertase.dev/)を使用しています。
+
+各プロジェクトのリポジトリをCloneしたら、 `melos bootstrap`コマンドで、全パッケージの依存関係をインストールしてください。
+
+{{< alert title="Note" >}}
+Melosについては[【v1.0.0】Melos紹介&チートシート](https://zenn.dev/altiveinc/articles/melos-for-multiple-packages-dart-projects)もご参照ください。
+{{< /alert >}}
+
 
 ### Xcode
 Xcodeは、App Storeからインストールすることもできますが、ダウンロード速度が遅いためお勧めしません。
