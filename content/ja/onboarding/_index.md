@@ -43,6 +43,11 @@ weight: 40
 - [ ] [App Store Connect](https://appstoreconnect.apple.com)
 - [ ] [Google Play Console](https://play.google.com/console/u/0/developers/8507323661724667240)
 
+{{< alert title="Note" >}}
+入社初日などマネーフォワードクラウド勤怠にサインアップ前で出勤打刻ができない場合は、サインアップ後に[マネーフォワード クラウド勤怠（FAQ）](https://biz.moneyforward.com/support/attendance/faq/timestamp-faq/timestamp1.html)を参考に打刻編集をしてください。
+{{< /alert >}}
+
+
 ### エンジニアのみ参加が必要なサービス
 - [ ] [Timing](https://web.timingapp.com)
 - [ ] 1Password
