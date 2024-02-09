@@ -25,7 +25,7 @@ description: Altiveでは、Slackを社内外のコミュニケーションツ�
 
 ## 通知の設定やステータスの設定について
 勤務時間外に通知を受け取らずに済むように、Slackの環境設定から通知を許可する曜日や時間帯を設定しましょう。
-詳しくは、 [Slack Status](slack-status) ページを参照してください。
+詳しくは、 [Slack Status](/communication/slack-status) ページを参照してください。
 
 ## チャンネル紹介
 すべてのチャンネルを網羅しているわけではありません。
