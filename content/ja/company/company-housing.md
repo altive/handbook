@@ -22,7 +22,7 @@ Altiveでは、土地や物件を会社が借り上げたうえで従業員に�
 
 ## 利用開始方法
 新規に社宅を利用する従業員は、入居開始日以前に、下記の対応をしてください。
-1. 「[借り上げ社宅管理規定](https://www.notion.so/a8f9460e15cd48df8c4ad2b7f1b43ab0?pvs=21)」に同意し、会社と「[借り上げ社宅入居誓約書](https://www.notion.so/972722d590a9433892cc862a380b3a49?pvs=21)」を締結します。
+1. 「[借り上げ社宅管理規定](https://drive.google.com/file/d/1RKRVa_5S62aKOCKRueqyTOn8vrlbzghM/view?usp=drive_link)」に同意し、会社と「[借り上げ社宅入居誓約書](https://drive.google.com/file/d/16jD5wUkQQuQBpCRImD_KA2t4WEGK6Lg1/view?usp=drive_link)」を締結します。
 2. 賃料の計算に必要な「固定資産評価証明書」を会社に提出してください。（固定資産評価証明書は市町村役場で取得できます）
 
 ## 労務の必要な手続き
