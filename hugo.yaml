@@ -33,8 +33,8 @@ imaging:
   resampleFilter: "CatmullRom"
 
 disableKinds:
-- taxonomy
-- term
+  - taxonomy
+  - term
 
 services:
   googleAnalytics:
@@ -90,7 +90,7 @@ params:
     algolia:
       apiKey: "8a69835659dd299f36b025c327834963"
       appID: "SJAAU903YH" # cSpell: disable-line
-      indexName: ""
+      indexName: "handbook-altive-co"
   # Enable Lunr.js offline search
   offlineSearch: false
   # Enable syntax highlighting and copy buttons on code blocks with Prism
