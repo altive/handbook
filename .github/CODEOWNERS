@@ -1,2 +1,5 @@
-* @altive/employees
-content/**/engineering @altive/engineering
+* @altive/engineering
+
+/content/ @altive/employees
+
+/content/**/engineering/ @altive/engineering
