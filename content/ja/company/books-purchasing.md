@@ -1,9 +1,6 @@
 ---
-title: "books purchasing"
-linkTitle: "Short Nav Title"
-weight: 100
-description: >-
-     会社で購入する書籍の形態や精算方法について
+title: "書籍の購入"
+description: 会社で購入する書籍の形態や精算方法について
 ---
 
 ## 概要
