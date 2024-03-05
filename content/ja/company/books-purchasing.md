@@ -67,6 +67,7 @@ Amazonに商品がないものやAmazonでは極端に高価になってしま�
 ### 書籍の購入時
  [Altive社内図書](https://www.notion.so/altive/e3eabb8b7d4749b9a7afd3cbb7d0c7e6?v=1586bdd5f0f84199bff256337c00bdf2&pvs=4)  に本を登録します。
 登録内容については、既存の書籍を参考に記載してください。
+既存の書籍である場合は、「届いた」ボタンで「持ってる人」に自分を追加します。
 
 ### 書籍の読了時
  [Altive社内図書](https://www.notion.so/altive/e3eabb8b7d4749b9a7afd3cbb7d0c7e6?v=1586bdd5f0f84199bff256337c00bdf2&pvs=4)  の「読んだ」ボタンで「読んだ人」に自分を追加します。
