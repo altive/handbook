@@ -1,7 +1,6 @@
 ---
-title: "Company housing"
-description: >-
-     社宅の目的や、従業員が社宅利用時に行う手続きについて
+title: "社宅制度"
+description: 社宅の目的や、従業員が社宅利用時に行う手続きについて
 ---
 
 ## 概要
