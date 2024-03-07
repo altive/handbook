@@ -40,7 +40,7 @@ Webブラウザで `名前@altive.co.jp` にサインインし、GmailかGoogle�
 1日で6時間以上勤務する場合は45分以上、8時間以上勤務する場合は1時間以上の合計休憩時間が必要です。（労働基準法）
 
 Slackの「ステータス」を変更しましょう：
-[Slack Statusの変更](communication/slack-status/)
+[Slack Statusの変更](/communication/slack-status/)
 
 ## 社用メールアドレスの初期設定
 社員には `@altive.co.jp` のメールアドレスが割り当てられます。
