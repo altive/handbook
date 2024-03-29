@@ -1,6 +1,7 @@
 # Handbook Specific Words
 Catmull
 changefreq
+devcontainers
 Docsy
 favomatch
 goldmark
