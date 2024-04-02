@@ -8,11 +8,13 @@ Altiveでは、バックエンド・フロントエンドの垣根なく、エ�
 そのため、FlutterとiOSやAndroidの開発環境は必須です。
 
 ### Flutterセットアップのゴール
-[flutter_app_template](https://github.com/altive/flutter_app_template)を以下のデバイスで起動確認できることをゴールとします。
-- iOS(Simulator/実機)
-- Android(Emulator/実機)
-- Web
-- macOS
+1. [flutter_app_template](https://github.com/altive/flutter_app_template)をリポジトリからCloneする
+2. 好みのIDE (VS Codeなど) でアプリをビルドする
+3. 以下のデバイスで起動確認できることをゴールとします。
+    - iOS(Simulator/実機)
+    - Android(Emulator/実機)
+    - Web
+    - macOS
 
 ### Flutter SDKのインストール
 プロジェクトに依らないグローバルなFlutter SDKをインストールしましょう。
