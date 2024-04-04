@@ -12,6 +12,13 @@ hugo version
 ```
 
 ```shell
+# Install Go by Homebrew
+brew install go
+# Check the Go version
+go version
+```
+
+```shell
 # Install npm by Homebrew
 brew install npm
 # Install npm packages
