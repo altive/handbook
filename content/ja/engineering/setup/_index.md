@@ -28,7 +28,7 @@ Altiveでは、バックエンド・フロントエンドの垣根なく、エ�
 
 Flutter公式ドキュメントに沿って Apple Silicon 用のインストールを行ってください。
 
-<https://docs.flutter.dev/get-started/install/macos>
+https://docs.flutter.dev/get-started/install/macos
 
 ### Flutter Version Management(FVM)のインストール
 
@@ -72,17 +72,17 @@ brew install xcodesorg/made/xcodes
 
 Macでアプリケーションをインストールしたり、管理するためのツールです。
 
-<https://brew.sh/ja/>
+https://brew.sh/ja/
 
 ### VS Code
 
 お勧めのIDEですが、好みのものがあれば、そちらを使ってください。
 
-<https://code.visualstudio.com/>
+https://code.visualstudio.com/
 
 ### Raycast
 
 お勧めのランチャーアプリです。
 Mac標準の「Spotlight」よりも高機能で、より便利に使えます。
 
-<https://www.raycast.com/>
+https://www.raycast.com/
