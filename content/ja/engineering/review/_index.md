@@ -1,6 +1,6 @@
 ---
 title: レビュー
-description: プルリクエストやコードレビューについて。
+description: コードレビューについて。
 ---
 
 {{< alert title="Note" >}}
