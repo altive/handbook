@@ -26,7 +26,7 @@ description: クライアントワークについて
 * 納期
 * 予算
   * 希望構成メンバーグレード
-（グレード別料金表：https://altive.co.jp/price）
+（[グレード別料金表](https://altive.co.jp/price))
 * 開発・コミュニケーション環境
   * ソース管理環境
     - [ ] Altive組織下 (https://github.com/altive)
