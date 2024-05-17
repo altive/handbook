@@ -1,6 +1,6 @@
 ---
 title: ブランチ戦略
-description: 採用しているブランチ戦略について
+description: 採用しているブランチ戦略について。
 ---
 
 AltiveではGitHub Flowに近い、main、feature、releaseの3つのブランチのみを使用した比較的シンプルなワークフローを採用しています。
