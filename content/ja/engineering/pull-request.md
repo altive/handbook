@@ -77,6 +77,8 @@ CIの成功は、コードの健全性と互換性を保証する重要なステ
   1. コンフリクトが発生した場合、VS Code上で解消後、コミット&プッシュを行います。
       - 参考：[Git Conflict Resolution](https://qiita.com/crarrry/items/c5964512e21e383b73da)
 
-## ブランチ名のページリンク
+## ブランチ名について
 
-[ブランチ戦略](/engineering/branch-strategy.md)
+作業ブランチのブランチ名については下記を参照してください。
+
+[ブランチ戦略#featureブランチ](/engineering/branch-strategy/#featureブランチ)
