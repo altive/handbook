@@ -1,7 +1,7 @@
 ---
 title: 学習支援
 description: 勉強会や試験受講・資格取得をサポートする学習支援制度について
-# cSpell: words iOSDC WWDC YOUTRUST
+# cSpell: words iOSDC WWDC KAIGI YOUTRUST
 ---
 
 ## カンファレンス・勉強会参加支援
@@ -32,12 +32,16 @@ Altiveでは、業務に関連するカンファレンスや勉強会への登�
 また、原則5時〜22時の範囲内での参加が対象となります。
 {{< /alert >}}
 
-### カンファレンス・勉強会の事例
+### 対象カンファレンス・勉強会の例
 
-- Apple国際女性デー
-- iOSDC Japan
-- WWDC
-- [YOUTRUST x ゆめみ Flutter LT会@渋谷 #3](https://yumemi.connpass.com/event/294763/)
+- Apple関連
+  - Apple国際女性デー
+  - [iOSDC Japan](https://iosdc.jp/)
+  - [WWDC](https://developer.apple.com/jp/)
+- Android関連
+  - [DroidKaigi](https://droidkaigi.jp/)
+- その他企業主催
+  - [YOUTRUST x ゆめみ Flutter LT会@渋谷 #3](https://yumemi.connpass.com/event/294763/)
 
 {{< alert title="Note" >}}
 このリストにない、新たなカンファレンスや勉強会に参加したい場合は、Slackにて打診・相談しましょう。<br>
