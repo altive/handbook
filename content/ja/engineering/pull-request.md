@@ -70,7 +70,7 @@ CIの成功は、コードの健全性と互換性を保証する重要なステ
   1. `git switch 作業ブランチ名`
   1. `git merge main`
   1. コンフリクトが発生した場合、VS Code上で解消後、コミット&プッシュを行います。
-  参考：[Git Conflict Resolution](https://qiita.com/crarrry/items/c5964512e21e383b73da)
+      - 参考：[Git Conflict Resolution](https://qiita.com/crarrry/items/c5964512e21e383b73da)
 
 ## ブランチ名のページリンク
 
