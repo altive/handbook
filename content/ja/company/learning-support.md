@@ -40,7 +40,7 @@ Altiveでは、業務に関連するカンファレンスや勉強会への登�
   - [WWDC](https://developer.apple.com/jp/)
 - Android関連
   - [DroidKaigi](https://droidkaigi.jp/)
-- その他企業主催
+- 勉強会
   - [YOUTRUST x ゆめみ Flutter LT会@渋谷 #3](https://yumemi.connpass.com/event/294763/)
 
 {{< alert title="Note" >}}
