@@ -33,9 +33,13 @@ description: プルリクエストについて。
 特に、そのプルリクエストでやったことや、やらないことの説明は最新の状態に保ちましょう。
 これにより、プロジェクトの進捗が最新化され、質疑の往復を防ぐことができます。
 
-## Issueを完全に解決する場合のみ `closes` を使用する
+## 関連のIssueを閉じたい場合はプルリクエストでのみ `closes` キーワードを使用する
 
-Issueを完全に解決する場合のみ closes キーワードをプルリクエストに含めましょう。
+プルリクエストによりIssueの要件を満たし完了する場合にのみ `closes/fixes/resolves` 等のキーワードをIssue番号に添えましょう。
+
+例： `closes #100`
+
+参考ドキュメント：[キーワードを使用してPull RequestをIssueにリンクする｜GitHub](https://docs.github.com/ja/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword)
 
 これにより、マージ時に関連するIssueが自動的にクローズされます。
 
