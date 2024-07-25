@@ -8,7 +8,9 @@ description: >
 
 テストしやすいコードを書くことを心がける。
 
-- `DateTime.now()` を使用すると、テストで日時を差し替えることができないため、 [clock](https://pub.dev/packages/clock) パッケージを使用し、代わりに `clock.now()` を使用しておくこと。
+### `DateTime.now()` を使用すると、テストで日時を差し替えることができない。
+
+[clock](https://pub.dev/packages/clock) パッケージを使用し、代わりに `clock.now()` を使用しておくことで、 `withClock` メソッドを使ってテスト時に日時を差し替えることができる。
   
 ### APIレスポンスのモデルクラスをUIコンポーネントでそのまま使用するか
 
