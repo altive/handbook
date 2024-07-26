@@ -4,6 +4,14 @@ description: >
   A short lead description about this section page. Text here can also be **bold** or _italic_ and can even be split over multiple paragraphs.
 ---
 
+## Testable
+
+テストしやすいコードを書くことを心がける。
+
+### `DateTime.now()` を使用すると、テストで日時を差し替えることができない。
+
+[clock](https://pub.dev/packages/clock) パッケージを使用し、代わりに `clock.now()` を使用しておくことで、 `withClock` メソッドを使ってテスト時に日時を差し替えることができる。
+  
 ### APIレスポンスのモデルクラスをUIコンポーネントでそのまま使用するか
 
 以下に該当する場合は、必要なフィールドのみを個別にUIコンポーネントの引数で渡して利用するようにする。
