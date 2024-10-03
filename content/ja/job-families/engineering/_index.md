@@ -9,16 +9,16 @@ description: 職種「エンジニアリング」について
 
 ## Grade
 
-| Grade | Role | 参考経験年数 | 参考月収 |
-| --- | --- | --- | --- |
-| 11 | - | - | - |
-| 10 | - | - | - |
-| 9 | Principal Software Engineer | - | - |
-| 8 | Staff Software Engineer | - | - |
-| 7 | Senior Software Engineer | 5年以上 | ¥550,000 ~ |
-| 6 | Intermediate Software Engineer | 3年以上 | ¥450,000 ~ |
-| 5 | Junior Software Engineer | 1年以上 | ¥350,000 ~ |
-| 4 | Associate Software Engineer | - | ¥200,000 ~ |
+| Grade | Role                           | 参考経験年数 | 参考月給   | 参考単価（時） |
+| ----- | ------------------------------ | ------------ | ---------- | -------------- |
+| 11    | -                              | -            | -          | -              |
+| 10    | -                              | -            | -          | -              |
+| 9     | Principal Software Engineer    | -            | -          | -              |
+| 8     | Staff Software Engineer        | -            | -          | -              |
+| 7     | Senior Software Engineer       | 5年以上      | ¥550,000 ~ | ¥10,000 ~      |
+| 6     | Intermediate Software Engineer | 3年以上      | ¥450,000 ~ | ¥7,000 ~       |
+| 5     | Junior Software Engineer       | 1年以上      | ¥350,000 ~ | ¥4,000 ~       |
+| 4     | Associate Software Engineer    | -            | ¥200,000 ~ | ¥2,000 ~       |
 
 ## Associate Software Engineer
 
