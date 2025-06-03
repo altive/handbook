@@ -3,12 +3,12 @@ updates:
 - package-ecosystem: npm
   directory: "/"
   schedule:
-    interval: weekly
+    interval: monthly
     time: '20:00'
   open-pull-requests-limit: 10
 - package-ecosystem: bundler
   directory: "/"
   schedule:
-    interval: weekly
+    interval: monthly
     time: '20:00'
   open-pull-requests-limit: 10
