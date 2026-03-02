@@ -8,6 +8,13 @@
             "addWords": true,
             "scope": "workspace"
         },
+        "framework-words": {
+            "name": "framework-words",
+            "path": "${workspaceRoot}/.cspell/framework-words.txt",
+            "description": "Framework Specific Words",
+            "addWords": true,
+            "scope": "workspace"
+        },
         "organization-words": {
             "name": "organization-words",
             "path": "${workspaceRoot}/.cspell/organization-words.txt",
@@ -48,5 +55,13 @@
         "**/bower_components": true,
         "**/*.code-search": true,
         "public": true
+    },
+    "workbench.colorCustomizations": {
+      "titleBar.activeBackground": "#EEEEEE",
+      "titleBar.activeForeground": "#333333",
+      "titleBar.inactiveBackground": "#CCCCCC",
+      "titleBar.inactiveForeground": "#666666",
+      "statusBar.debuggingBackground": "#FFFFFF",
+      "statusBar.debuggingForeground": "#000000"
     }
 }
